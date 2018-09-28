@@ -2,7 +2,7 @@
 
 # Laravel Floorplanner
 
-Laravel Service Provider for the Floorplanner API.
+Laravel Service Provider for the [Floorplanner API](http://docs.floorplanner.com/floorplanner/api-v2).
 
 ## Requirements
 
@@ -39,3 +39,5 @@ You can use the `Floorplanner` facade to get an API endpoint:
 ```php
 $user = \Floorplanner::users()->show(6);
 ```
+
+For more information about the available endpoints and how to use them, check out [soomedia/floorplanner-v2](https://github.com/SooMedia/floorplanner-v2).
