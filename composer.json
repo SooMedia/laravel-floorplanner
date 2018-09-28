@@ -28,5 +28,15 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SooMedia\\LaravelFloorplanner\\FloorplannerServiceProvider"
+            ],
+            "aliases": {
+                "Floorplanner": "SooMedia\\LaravelFloorplanner\\FloorplannerFacade"
+            }
+        }
     }
 }
