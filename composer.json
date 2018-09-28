@@ -1,0 +1,32 @@
+{
+    "name": "soomedia/laravel-floorplanner",
+    "description": "Laravel Service Provider for the Floorplanner API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem Oostendorp",
+            "email": "willem@soomedia.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.6",
+        "soomedia/floorplanner-v2": "^0.0.4",
+        "ext-json": "^1.6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SooMedia\\LaravelFloorplanner\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
