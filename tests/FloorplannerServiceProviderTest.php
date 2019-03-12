@@ -38,6 +38,11 @@ class FloorplannerServiceProviderTest extends TestCase
     protected function getEnvironmentSetUp($app): void
     {
         $app['config']->set('floorplanner.api_key', 'my_api_key');
+
+        $app['config']->set(
+            'floorplanner.base_uri',
+            FloorplannerClient::BASE_URI
+        );
     }
 
     /**

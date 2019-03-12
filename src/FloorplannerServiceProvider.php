@@ -35,6 +35,7 @@ class FloorplannerServiceProvider extends ServiceProvider
 
                 return new FloorplannerClient(
                     $config['api_key'],
+                    $config['base_uri'],
                     $config['httpClientOptions'] ?? []
                 );
             }

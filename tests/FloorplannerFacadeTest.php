@@ -5,6 +5,7 @@ namespace Tests;
 
 use Orchestra\Testbench\TestCase;
 use SooMedia\Floorplanner\Endpoints\UsersEndpoint;
+use SooMedia\Floorplanner\FloorplannerClient;
 use SooMedia\LaravelFloorplanner\FloorplannerFacade;
 use SooMedia\LaravelFloorplanner\FloorplannerServiceProvider;
 
@@ -60,7 +61,10 @@ class FloorplannerFacadeTest extends TestCase
      */
     public function testFacade(): void
     {
-        app('config')->set(['floorplanner.api_key' => 'my_api_key']);
+        app('config')->set([
+            'floorplanner.api_key' => 'my_api_key',
+            'floorplanner.base_uri' => FloorplannerClient::BASE_URI,
+        ]);
 
         $users = \Floorplanner::users();
 

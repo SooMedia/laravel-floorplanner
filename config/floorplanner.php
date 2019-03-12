@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use SooMedia\Floorplanner\FloorplannerClient;
+
 return [
 
     /*
@@ -13,6 +15,18 @@ return [
     */
 
     'api_key' => env('FLOORPLANNER_API_KEY'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Floorplanner base URI
+    |--------------------------------------------------------------------------
+    |
+    | The base URI for the Floorplanner API v2. Defaults to
+    | https://floorplanner.com/api/v2/.
+    |
+    */
+
+    'base_uri' => env('FLOORPLANNER_BASE_URI', FloorplannerClient::BASE_URI),
 
     /*
     |--------------------------------------------------------------------------
