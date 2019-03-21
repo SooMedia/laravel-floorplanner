@@ -1305,16 +1305,16 @@
         },
         {
             "name": "soomedia/floorplanner-v2",
-            "version": "v1.0.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SooMedia/floorplanner-v2.git",
-                "reference": "d39b14d0076ea261032b24e686ad8727f891f9f3"
+                "reference": "6df30b5290eb5de1641dc8be7336efba9dd12d0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SooMedia/floorplanner-v2/zipball/d39b14d0076ea261032b24e686ad8727f891f9f3",
-                "reference": "d39b14d0076ea261032b24e686ad8727f891f9f3",
+                "url": "https://api.github.com/repos/SooMedia/floorplanner-v2/zipball/6df30b5290eb5de1641dc8be7336efba9dd12d0a",
+                "reference": "6df30b5290eb5de1641dc8be7336efba9dd12d0a",
                 "shasum": ""
             },
             "require": {
@@ -1342,7 +1342,7 @@
                 }
             ],
             "description": "Floorplanner API v2 client for PHP",
-            "time": "2019-03-12T15:02:11+00:00"
+            "time": "2019-03-21T11:23:39+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

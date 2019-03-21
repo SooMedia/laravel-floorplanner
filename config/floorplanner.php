@@ -22,11 +22,25 @@ return [
     |--------------------------------------------------------------------------
     |
     | The base URI for the Floorplanner API v2. Defaults to
-    | https://floorplanner.com/api/v2/.
+    | https://floorplanner.com/.
     |
     */
 
     'base_uri' => env('FLOORPLANNER_BASE_URI', FloorplannerClient::BASE_URI),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Floorplanner API endpoint
+    |--------------------------------------------------------------------------
+    |
+    | The API endpoint for the Floorplanner API v2. Defaults to api/v2/.
+    |
+    */
+
+    'api_endpoint' => env(
+        'FLOORPLANNER_API_ENDPOINT',
+        FloorplannerClient::API_ENDPOINT
+    ),
 
     /*
     |--------------------------------------------------------------------------

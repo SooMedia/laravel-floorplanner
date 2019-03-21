@@ -64,6 +64,7 @@ class FloorplannerFacadeTest extends TestCase
         app('config')->set([
             'floorplanner.api_key' => 'my_api_key',
             'floorplanner.base_uri' => FloorplannerClient::BASE_URI,
+            'floorplanner.api_endpoint' => FloorplannerClient::API_ENDPOINT,
         ]);
 
         $users = \Floorplanner::users();

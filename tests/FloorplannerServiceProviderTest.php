@@ -43,6 +43,11 @@ class FloorplannerServiceProviderTest extends TestCase
             'floorplanner.base_uri',
             FloorplannerClient::BASE_URI
         );
+
+        $app['config']->set(
+            'floorplanner.api_endpoint',
+            FloorplannerClient::API_ENDPOINT
+        );
     }
 
     /**
