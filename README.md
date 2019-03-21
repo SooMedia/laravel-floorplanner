@@ -32,10 +32,11 @@ Now you can find the config file in `config/floorplanner.php`. Here you can conf
 FLOORPLANNER_API_KEY=my_api_key
 ```
 
-You can also change the Floorplanner base URI used by the client:
+You can also change the Floorplanner base URI and API endpoint used by the client:
 
 ```dotenv
-FLOORPLANNER_BASE_URI=https://sandbox.floorplanner.com/api/v2/
+FLOORPLANNER_BASE_URI=https://sandbox.floorplanner.com/
+FLOORPLANNER_API_ENDPOINT=api/v2/
 ```
 
 ## Usage
