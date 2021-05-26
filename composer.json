@@ -12,12 +12,12 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^7.3",
-        "illuminate/support": "^6.0 || ^7.0",
+        "illuminate/support": "^8.0",
         "soomedia/floorplanner-v2": "~2.0",
         "ext-json": "*"
     },
     "require-dev": {
-        "orchestra/testbench": "~4.0"
+        "orchestra/testbench": "~6.0"
     },
     "autoload": {
         "psr-4": {
