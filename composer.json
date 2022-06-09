@@ -11,9 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.3",
+        "php": "^8.1",
         "illuminate/support": "^8.0",
-        "soomedia/floorplanner-v2": "~3.0",
+        "soomedia/floorplanner-v2": "~4.0",
         "ext-json": "*"
     },
     "require-dev": {
