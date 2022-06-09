@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/SooMedia/laravel-floorplanner.svg?branch=master)](https://travis-ci.org/SooMedia/laravel-floorplanner)
-
 # Laravel Floorplanner
 
 Laravel Service Provider for the [Floorplanner API](http://docs.floorplanner.com/floorplanner/api-v2).
