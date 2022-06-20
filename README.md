@@ -4,7 +4,7 @@ Laravel Service Provider for the [Floorplanner API](http://docs.floorplanner.com
 
 ## Requirements
 
-The Floorplanner service provider requires Laravel version `8` and above and PHP version `8.1` and above.
+The Floorplanner service provider requires Laravel version `9` and above and PHP version `8.1` and above.
 
 ## Installation
 
